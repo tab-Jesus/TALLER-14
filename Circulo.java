@@ -12,11 +12,6 @@ public class Circulo extends Figura {
     public Circulo(double radio) {
         this.radio = radio;
     }
-
-    Circulo(int i) {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
-    
      @Override
     public void calcularArea() {
        
